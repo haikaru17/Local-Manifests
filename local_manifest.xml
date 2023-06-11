@@ -40,10 +40,4 @@
 
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="master" />
 
-       
-
-  <!-- Remove -->
-
-       <remove-project name="android_hardware_lineage_compat" />
-
 </manifest>
