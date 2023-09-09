@@ -14,9 +14,9 @@
 
           fetch="https://github.com/zhantech" />
 
-  <remote name="proton-cleng"
+  <remote name="weeb"
 
-          fetch="https://github.com/kdrag0n" />
+          fetch="https://gitlab.com/GhosutoX" />
 
   <remote name="Cruzer1"
 
@@ -36,5 +36,8 @@
    
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="Cruzer1" revision="t13" />
 
-       <project path="prebuilts/clang/host/linux-x86/clang-weebx" name="proton-clang" remote="proton-cleng" revision="master" />
+       <project path="prebuilts/clang/host/linux-x86/clang-weebx" name="weebx-clang15" remote="weeb" revision="master" />
+
+       <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Cruzer1" revision="t13-beryllium" />
+   
 </manifest>
