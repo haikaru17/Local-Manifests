@@ -8,7 +8,7 @@
 
   <remote name="ihklknz"
 
-          fetch="https://github.com/ihklknz-lab" />
+          fetch="https://github.com/ihklknz" />
 
   <remote name="zhantech"
 
@@ -25,25 +25,19 @@
   <remote name="bananadroid-dev-trees"
 
           fetch="https://github.com/bananadroid-devices" />
+          
+  <remote name="anandhan07"
+  
+          fetch="https://gitlab.com/anandhan07/aosp-clang" />
 
   <!-- Set Your Directory From Trees To Here -->
 
-       <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13-treble" />
+       <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="ihklknz" revision="fourteen" />
 
-       <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
+       <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="ihklknz" revision="14" />
 
-       <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="bananadroid-dev-trees" revision="13" />
+       <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845-4.9" remote="ihklknz" revision="fourteen" />
 
-       <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="bananadroid-dev-trees" revision="13" />
-
-       <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_msm8953" remote="ihklknz" revision="kizuna-treble" />
-
-       <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="master" />
-
-       
-
-  <!-- Remove -->
-
-       <remove-project name="android_hardware_lineage_compat" />
+       <project path="prebuilts/clang/host/linux-x86/aosp-clang" name="aosp-clang" remote="anandhan07" revision="17" />
 
 </manifest>
