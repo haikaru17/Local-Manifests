@@ -28,15 +28,29 @@
           
   <remote name="anandhan07"
   
-          fetch="https://gitlab.com/anandhan07/aosp-clang" />
+          fetch="https://gitlab.com/anandhan07" />
+          
+  <remote name="hklknzstuffs"
+           
+          fetch="https://github.com/hklknz-stuffs" />
+          
+  <remote name="hzd"
+         
+          fetch="https://github.com/HorizonDroid-Org-Devices" />
+        
+  <remote name="4.19"
+  
+          fetch="https://github.com/Beryllium-4-19-Project" />
 
   <!-- Set Your Directory From Trees To Here -->
 
-       <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="ihklknz" revision="fourteen" />
+       <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="hklknzstuffs" revision="fourteen" />
 
-       <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="ihklknz" revision="14" />
+       <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="hzd" revision="fourteen" />
 
-       <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845-4.9" remote="ihklknz" revision="fourteen" />
+       <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="4.19" revision="rebase" />
+       
+       <project path="kernel/xiaomi/sdm845/techpack/mi845" name=" kernel_techpack_mi845" remote="4.19" revision="master" />
 
        <project path="prebuilts/clang/host/linux-x86/aosp-clang" name="aosp-clang" remote="anandhan07" revision="17" />
 
