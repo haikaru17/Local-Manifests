@@ -18,9 +18,9 @@
 
           fetch="https://github.com/kdrag0n" />
 
-  <remote name="GK"
+  <remote name="ihklknz-gtlb"
 
-          fetch="https://github.com/GengKapak" />
+          fetch="https://gitlab.com/ihklknz" />
 
   <remote name="hklknz-stuffs"
 
@@ -34,4 +34,7 @@
 
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ihklknz" revision="fourteen" />
 
+       <remove-project name="vendor_gms" />
+
+       <project path="vendor/gms" name="vendor_gms" remote="ihklknz-gtlb" revision="main"/>
 </manifest>
