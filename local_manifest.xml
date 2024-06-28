@@ -36,5 +36,5 @@
 
        <remove-project name="vendor_gms" />
 
-       <project path="vendor/gms" name="vendor_gms" remote="ihklknz-gtlb" revision="main"/>
+       <project path="vendor/gms" name="vendor_gms" remote="ihklknz-gtlb" clone-depth="1" revision="main"/>
 </manifest>
