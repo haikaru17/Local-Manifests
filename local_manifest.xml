@@ -33,8 +33,4 @@
        <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="hklknz-stuffs" revision="fourteen" />
 
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ihklknz" revision="fourteen" />
-
-       <remove-project name="vendor_gms" />
-
-       <project path="vendor/gms" name="vendor_gms" remote="ihklknz-gtlb" clone-depth="1" revision="main"/>
 </manifest>
