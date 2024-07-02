@@ -6,9 +6,9 @@
 
 
 
-  <remote name="ihklknz"
+  <remote name="haikaru17"
 
-          fetch="https://github.com/ihklknz" />
+          fetch="https://github.com/haikaru17" />
 
   <remote name="zhantech"
 
@@ -32,5 +32,5 @@
 
        <project path="vendor/xiaomi/beryllium" name="vendor_xiaomi_beryllium" remote="hklknz-stuffs" revision="fourteen" />
 
-       <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="ihklknz" revision="fourteen" />
+       <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="haikaru17" revision="fourteen" />
 </manifest>
