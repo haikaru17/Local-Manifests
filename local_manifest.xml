@@ -35,8 +35,4 @@
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="haikaru17" revision="fourteen" />
 
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="master" />
-
-       <remove-project name="android_hardware_lineage_interfaces" />
-
-       <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="haikaru17" revision="lineage-21.0" />
 </manifest>
