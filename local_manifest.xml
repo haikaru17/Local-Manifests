@@ -18,9 +18,9 @@
 
           fetch="https://github.com/kdrag0n" />
 
-  <remote name="ihklknz-gtlb"
+  <remote name="pos"
 
-          fetch="https://gitlab.com/ihklknz" />
+          fetch="https://github.com/PixelOS-AOSP" />
 
   <remote name="hklknz-stuffs"
 
@@ -35,4 +35,6 @@
        <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="haikaru17" revision="fourteen" />
 
        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton-cleng" revision="master" />
+
+       <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pos" revision="fourteen" />
 </manifest>
